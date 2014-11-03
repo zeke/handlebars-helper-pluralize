@@ -1,0 +1,33 @@
+{
+  "name": "handlebars-helper-pluralize",
+  "version": "1.0.0",
+  "description": "A Handlebars helper for conditionally pluralizing words",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/handlebars-helper-pluralize"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "keywords": [
+    "handlebars",
+    "helper",
+    "plural",
+    "pluralize",
+    "singular",
+    "inflections"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeke/handlebars-helper-pluralize/issues"
+  },
+  "homepage": "https://github.com/zeke/handlebars-helper-pluralize",
+  "dependencies": {
+    "i": "^0.3.2"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  }
+}
