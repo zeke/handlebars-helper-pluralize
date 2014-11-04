@@ -21,13 +21,15 @@ app.set("view engine", "hbs")
 // etc...
 ```
 
-In your Handlebars template:
+Use the helper in your Handlebars template:
 
 ```hbs
 {{#pluralize 2 pony}}
 ```
 
-The above will output `ponies`. To include the count, add a third param:
+The above code will output `ponies`.
+
+To include the count in the output, pass `true` as a third argument:
 
 ```hbs
 {{#pluralize 2 pony true}}

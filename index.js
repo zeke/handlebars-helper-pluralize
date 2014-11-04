@@ -1,5 +1,7 @@
 var inflect = require("i")()
 
-module.exports = function(count, word) {
-  return Number(count) === 1 ? inflect.singularize(word) : inflect.pluralize(word)
+module.exports = function(count, word, includeCount) {
+  var result = Number(count) === 1 ? inflect.singularize(word) : inflect.pluralize(word)
+  if (includeCount) result = String(count) + " " + result
+  return result
 }

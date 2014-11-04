@@ -9,5 +9,6 @@ test("pluralize", function (t) {
   t.equal(pluralize(500000, "module"), "modules")
   t.equal(pluralize(-1, "day"), "days")
   t.equal(pluralize(365, "pony"), "ponies")
+  t.equal(pluralize(365, "pony", true), "365 ponies")
   t.end()
 })
