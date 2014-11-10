@@ -1,6 +1,6 @@
 {
   "name": "handlebars-helper-pluralize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Handlebars helper for conditionally pluralizing words",
   "main": "index.js",
   "repository": {
