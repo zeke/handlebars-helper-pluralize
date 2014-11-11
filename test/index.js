@@ -10,5 +10,6 @@ test("pluralize", function (t) {
   t.equal(pluralize(-1, "day"), "days")
   t.equal(pluralize(365, "pony"), "ponies")
   t.equal(pluralize(365, "pony", true), "365 ponies")
+  t.equal(pluralize(365, "Dog", true), "365 Dogs", "preserves case")
   t.end()
 })
